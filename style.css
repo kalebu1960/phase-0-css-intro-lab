@@ -1,20 +1,44 @@
-/* Tag selector to select the 'body' element */
+
+/* Style the whole page background */
 body {
-  /* Your code here! */
+  background-color: #00b3e6; /* light blue */
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
+/* Style all <div> elements */
 div {
-  /* Your code here! */
+  width: 700px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  background: white;
+  padding: 30px;
+}
+/* Center the white <div> horizontally and vertically */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* ID selector to select the element with id 'main-header' */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* Style the main header */
 #main-header {
-  /* Your code here! */
-  color: red;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0077a3;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 8px #b3e6ff;
 }
 
-/* Class selector to select elements containing the class 'perspective-questions' */
+/* Style list items with the class .perspective-questions */
 .perspective-questions {
-  /* Your code here! */
+  font-style: italic;
 }
+
